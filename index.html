@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flappy Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="startGame()">
+    <header>
+        <img src="./asset/logo.png" alt="">
+        <h4>Built with 💙 by ProGrad Junior</h4>
+    </header>
+    <div>
+        <img class="button" onmousedown="moveleft()" onmouseup="clearmove()" ontouchstart="moveleft()" src="./asset/left.png" alt="">
+        <img class="button" onmousedown="moveup()" onmouseup="clearmove()" ontouchstart="moveup()" src="./asset/up.png" alt="">
+        <img class="button" onmousedown="movedown()" onmouseup="clearmove()" ontouchstart="movedown()" src="./asset/down.png" alt="">
+        <img class="button" onmousedown="moveright()" onmouseup="clearmove()" ontouchstart="moveright()" src="./asset/right.png" alt=""> 
+    </div>
+<script src="./app.js"></script>
+</body>
+</html>
